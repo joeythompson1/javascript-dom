@@ -12,7 +12,7 @@ function addImage() {
     document.querySelector('body').appendChild(button);
 
     const image = document.createElement('img');
-    image.src = './Images/domPic.png';
+    image.src = './img/domPic.png';
     document.querySelector('body').appendChild(image);
 
     button.addEventListener ("click", function() {

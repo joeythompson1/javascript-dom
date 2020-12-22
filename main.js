@@ -8,5 +8,5 @@ document.querySelector('#fact').textContent = 'My favorite color is pink';
 document.querySelector('ul').style.color = 'hotpink';
 
 const image = document.createElement('img');
-image.src = './Images/Soccer.png';
+image.src = './img/retro.png';
 document.querySelector('body').appendChild(image);
